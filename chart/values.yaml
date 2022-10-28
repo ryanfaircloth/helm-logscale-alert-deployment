@@ -1,0 +1,14 @@
+#managedClusterName: ops-helm-logscale
+#viewPrefix: mssp-site-a-
+# actions:
+#   - mssp-site-a-alerts
+# alerts:
+#   - viewName: "data"
+#     name: first-detection
+#     query:
+#       queryString: "error = true | count() | _count = 0"
+#       start: 5m
+#       end: now
+#       isLive: true
+#     throttleTimeMillis: 60000
+#     silenced: false
